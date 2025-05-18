@@ -1,0 +1,58 @@
+/* Reset styles */
+body {
+  margin: 0;
+  background-color: black;
+  color: #FFC0CB;
+  font-family: sans-serif;
+}
+
+/* Contact Section */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+/* Contact Info Box */
+.info-box {
+  width: 50%;
+  padding: 20px;
+  background-color: #111;
+  color: #FFC0CB;
+  border: 3px solid #FF69B4;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #FF69B4;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+/* Back Button */
+.back-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem;
+  background-color: #ff69b4;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #ff85c1;
+}
+.contact-heading {
+  color: white; 
+}
+
+.details-intro {
+  color: white; 
+  font-weight: 500;
+}
+

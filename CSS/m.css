@@ -1,0 +1,59 @@
+
+
+body {
+    margin: 0;
+    background-color: #000;
+    color: #FFC0CB;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #111;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #FF69B4;
+  }
+  
+  .magazine-cover {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #FF69B4;
+  }
+  
+  .buttons-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    background-color: #FF69B4;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 0 10px #FF69B4;
+  }
+  
+  .button:hover {
+    background-color: #FFC0CB;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #FFC0CB;
+  }
+  
+  .button:active {
+    background-color: #FF69B4;
+    box-shadow: none;
+  }
+  

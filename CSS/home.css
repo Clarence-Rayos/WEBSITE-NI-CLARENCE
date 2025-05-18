@@ -1,0 +1,50 @@
+
+    body {
+      margin: 0;
+      background-color: black;
+      background-image: url('https://img.freepik.com/free-vector/abstract-geometric-diagonal-shape-dark-background_1409-1819.jpg');
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .button {
+      background-color: hotpink;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 15px 30px;
+      font-size: 1.5em;
+      cursor: pointer;
+      width: 200px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: pink;
+      transform: scale(1.1);
+    }
+
+    .button:focus {
+      outline: none;
+    }
+
+    .title {
+      font-size: 3em;
+      margin-bottom: 40px;
+      color: hotpink;
+    }
+  
